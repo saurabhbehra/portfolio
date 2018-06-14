@@ -1,0 +1,193 @@
+:root{
+	font-size:20px;
+}
+ body {
+    max-width: 100%;
+    overflow-x: hidden;
+	margin:0px;
+	padding:0px;
+	display:flex;
+	flex-direction:column;
+	
+}
+.container{
+	display:flex;
+	flex-direction:column;
+}
+
+.sub-container{
+	background-image:url(cubes_structure_black_blue_120005_1600x1200.jpg);
+	height:100vh;
+	width:100vw;
+	background-size:cover;
+	background-size:100% 100%;
+	
+}
+.sub-container h3{
+	color:0BF2D6;
+	font-family: 'Julius Sans One', sans-serif;
+	margin-left:22vw;
+	
+}
+
+.heading{
+	color:0BF2D6;
+	margin-left:32vw;
+	margin-top:30vh;
+	font-size:1.2rem;
+	font-family: 'Kotta One', serif;
+	
+}
+.sub-heading{
+	color:0BF2D6;
+	margin-left:25vw;
+	font-size:2rem;
+	font-family: 'Cinzel Decorative', cursive;
+
+}
+.second-heading{
+	color:0BF2D6;
+	margin-left:28vw;
+	font-size:1rem;
+	font-family: 'Marck Script', cursive;
+}
+.title{
+	display:flex;
+	justify-content:center;
+}
+.left{
+	width:50%;
+	min-height:50px;
+	
+	float:left;
+}
+.right{
+	width:50%;
+	min-height:50vh;
+	float:left;
+}
+
+
+.background{
+	background-image:url(Painting-Transparent-Background-PNG.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+	height:100vh;
+	width:100vw;
+	background-size:100% 100%;
+	
+}
+.holder2{
+	width:90%;
+}
+.holder3 img{
+	margin:10px;
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+	.holder2{
+		display:flex;
+		flex-direction:column;
+		width:80%;
+	}
+	.holder3{
+		display:flex;
+		flex-direction:column;
+		width:100%;
+	}
+	.social{
+		margin:10px;
+	}
+	
+	
+}
+	
+@media screen and (max-width:480px)
+{
+	.holder2{
+		display:flex;
+		flex-direction:column;
+		width:90%;
+	}
+	
+	.holder3{
+		display:flex;
+		flex-direction:column;
+		width:100%;
+	}
+	
+	
+	.wrapper{
+	display:flex;
+	flex-direction:column;
+	margin-right:10vw;
+	
+	}
+	.social{
+	width:5%;
+	margin-right:75vw;
+	}
+	.logo{
+	width:30px;
+	height:12px;
+	}
+
+	
+	
+}
+	
+
+}
+#paragraph{
+	font-size:1.1rem;
+	
+}
+#paragraph1{
+	font-size:0.9rem;
+	font-family: 'Courgette', cursive;
+	margin-left:9vw;
+}
+.wrapper center{
+	color:white;
+	
+} 
+
+.wrapper{
+	background:#56EAC4;
+	min-height:200px;
+	width:100%;
+	margin-top:1300px;
+	
+}
+.icon{
+	margin:20px;
+	float:left;
+	width:30%;
+	min-height:100px;
+}
+.content{
+	width:90%;
+	margin-top:7vh;
+	float:left;
+	
+	
+}
+.holder3{
+	float:left;
+}
+.clearblock{
+	clear:both;
+}
+.social{
+	width:5%;
+	height:30%;
+	float:left;
+	
+}
+.logo{
+	width:30px;
+	height:42px;
+	margin-left:40vw;
+	margin-top:10vh;
+}
+
